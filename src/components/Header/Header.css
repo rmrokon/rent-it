@@ -1,0 +1,46 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: pink;
+    padding: 20px;
+}
+
+.logo {
+    font-family: monospace;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+}
+
+.links>li {
+    margin-right: 22px;
+}
+
+.notActiveLinks,
+.activeLink {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: monospace;
+    color: black;
+}
+
+.activeLink {
+    color: rgb(186, 67, 87);
+}
+
+.authenticationBtns button {
+    border: none;
+    margin-right: 10px;
+    padding: 15px 25px;
+    border-radius: 16px 0 16px 0;
+    background-color: rgb(186, 67, 87);
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
